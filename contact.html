@@ -1,71 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Nicole Lockwood</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Contact | Nicole Lockwood</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-	<div id="banner">
-		<header>
-			<h1>Nicole Lockwood</h1>
-		</header>
 
-		<ul id="menu">
-			<li><a href="index.html" class="nav">About</a></li>
-			<li><a href="portfolio.html" class="nav">Portfolio</a></li>
-			<li><a href="contact.html" class="nav">Contact</a></li>
-		</ul>
-	</div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Nicole Lockwood</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-	<div>
-	<div class="container" id="contact-div">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-		<div class="section-head" id="contact-head">
-			<h2>Contact</h2>
-		</div>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-		<form>
-			Name<br>
-			<input type="text" name="name" value="John Smith">
-			<br>
-			Email<br>
-			<input type="text" name="email" value="example@gmail.com">
-			<br>
-			Message <br>
-			<textarea rows="5" cols="50" name="Message">
-			</textarea>
-			<br>
-			<input type="Submit" name="Submit" value="Submit" id="submit">
-		</form>
-		</div>
+    </section>
 
-		<div class="container2">
-		<div class="section-head" id="connect-head">
-			<h2>Connect with Me</h2>
-		</div>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-		<section id="connect">
-			<a href="https://github.com/lockwoni" target="_blank">
-				<img id="GitHub" src="https://github.com/lockwoni/Basic-Portfolio/blob/master/assets/images/Github.png?raw=true" alt="GitHub Link">
-			</a>
+        <a href="https://github.com/lockwoni"  target="_blank"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/nicolelockwood1"  target="_blank"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="http://stackoverflow.com/users/7402335/nlockwood?tab=profile"  target="_blank"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
 
-			<a href="https://www.linkedin.com/in/nicolelockwood1" target="_blank">
-				<img id="LinkedIn" src="https://github.com/lockwoni/Basic-Portfolio/blob/master/assets/images/Linkedin.png?raw=true" alt="LinkedIn Link">
-			</a>
-
-			<a href="http://stackoverflow.com/users/7402335/nlockwood?tab=profile" target="_blank">
-				<img id="Stackoverflow" src="https://github.com/lockwoni/Basic-Portfolio/blob/master/assets/images/Stackoverflow.png?raw=true" alt="Stackoverflow Link">
-			</a>
-		</section>
-	</div>
-
-	<footer class="footer">
-		Copyright &reg; 2016 Nicole Lockwood
-	</footer>
-	</div>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Nicole Lockwood
+    </div>
+  </footer>
 </body>
+
 </html>
