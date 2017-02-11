@@ -69,7 +69,7 @@ h3 {
   width: 280px;
   height: 90px;
   float: left;
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: 'Georgia', Times, "Times New Roman", serif;
   text-align: center;
   line-height: 90px;
   color: #fff;
@@ -262,7 +262,7 @@ input[type=submit] {
   /*sidebar*/
 
   .sidebar {  
-    margin-right: 115px;
+    margin-right: 110px;
   }
 
   .social {
@@ -319,7 +319,7 @@ input[type=submit] {
   .sidebar {  
     max-width: 698px;
     clear: both;
-    margin: 0 20px 30px 20px;
+    margin: 0 20px 40px 20px;
   }
 
 
@@ -328,7 +328,7 @@ input[type=submit] {
   .main-section {
     max-width: 698px;
     clear: both;
-    margin: 0 20px 30px 20px;
+    margin: 0 20px 40px 20px;
   }
 
 
@@ -359,6 +359,10 @@ input[type=submit] {
 
   /*header*/
 
+  #masthead {
+    position: static;
+  }
+
   #logo, nav {
     width: 100%;
   }
@@ -379,13 +383,6 @@ input[type=submit] {
   }
 
 
-  /*footer*/
-
-  footer {
-      position: static;
-    }
-
-
   /*sidebar*/
 
   .sidebar {  
@@ -398,13 +395,13 @@ input[type=submit] {
   /*main*/
 
   #main-container {
-    padding-top: 170px;
+    padding-top: 0;
   }
 
   .main-section {
     max-width: 580px;
     clear: both;
-    margin: 15px 15px 30px 15px;
+    margin: 0 15px 30px 15px;
   }
 
   .auth-image {
